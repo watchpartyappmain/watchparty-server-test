@@ -1,0 +1,43 @@
+{
+  "name": "watchparty",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PredatorFeesh/Watch-Party.git"
+  },
+  "keywords": [
+    "watchparty",
+    "movie",
+    "backend"
+  ],
+  "author": "WatchParty Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PredatorFeesh/Watch-Party/issues"
+  },
+  "homepage": "https://github.com/PredatorFeesh/Watch-Party#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "jest": {
+    "verbose": true,
+    "clearMocks": false,
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^25.2.3"
+  }
+}
